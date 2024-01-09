@@ -1,5 +1,5 @@
 {
-  "name": "@semantic-release/gitlab",
+  "name": "@teles1-semantic-release/gitlab",
   "description": "semantic-release plugin to publish a GitLab release",
   "version": "0.0.0-development",
   "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
@@ -10,7 +10,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/semantic-release/gitlab/issues"
+    "url": "https://github.com/teles1/gitlab/issues"
   },
   "contributors": [
     "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
@@ -47,13 +47,13 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/gitlab#readme",
+  "homepage": "https://github.com/teles1/gitlab#readme",
   "keywords": [
     "git",
     "gitlab",
     "publish",
     "release",
-    "semantic-release",
+    "teles1",
     "version"
   ],
   "license": "MIT",
@@ -84,17 +84,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/gitlab.git"
+    "url": "https://github.com/Teles1/gitlab.git"
   },
   "scripts": {
     "lint": "prettier --check \"*.{js,json,md}\" \".github/**/*.{md,yml}\" \"{bin,lib,test}/*.js\"",
     "lint:fix": "prettier --write \"*.{js,json,md}\" \".github/**/*.{md,yml}\" \"{bin,lib,test}/*.js\"",
     "semantic-release": "semantic-release",
     "test": "c8 ava --verbose"
-  },
-  "renovate": {
-    "extends": [
-      "github>semantic-release/.github:renovate-config"
-    ]
   }
 }
